@@ -1,0 +1,12 @@
+Structure de dossier:
+    - dossier actions (avec chaque fichier qui est égale à une action)
+    - dossier reducers (avec un index.js qui combine les reducers & des autres fichiers pour chaque reducer)
+    - dossier Container (pour les composants qui sont connecté à redux - pas obligatoire)
+
+1. créer les actions
+2. créer les reducers propres à chaque action
+3. mettre en place le store
+4. recuperer dans un composant les données
+    a. importer la (ou les) actions que l'on va utiliser
+    b. importer {connect} pour connecter le store au composant
+    c. définir les states du store en props (mapStateToProps) puis les action (mapDispatchToProps)
